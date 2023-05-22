@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #FFF;
+    height: 150vh;
+}
+
+.nav_prin{
+    padding-bottom: 125px;
+}
+nav{
+    max-width: 900px;
+    margin: auto;
+    background-color: #86594c; 
+    font-size: 28px;
+    margin-top: 50px;
+    
+   
+}
+
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Amatic SC', cursive;
+
+}
+
+
+.menu-horizontal > li > a{
+    display: block;
+    padding: 30px 25px;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.menu-horizontal > li:hover{
+    background-color: #dd8e75;
+}
+
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 202px;
+    background-color: rgba(144, 174, 178, .3);
+    font-family: 'Amatic SC', cursive;
+}
+
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+
+}
+
+.menu-vertical li:hover{
+    background-color: #90aeb2;
+
+}
+.menu-vertical li a{
+    display: block;
+    color: #fff;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+
+}
+
+
+
+
+/* MENU VERTICAL2 */
+
+
+
+.menu-vertical2{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 171px;
+    background-color: rgba(144, 174, 178, .3);
+    font-family: 'Amatic SC', cursive;
+}
+
+.menu-horizontal li:hover .menu-vertical2{
+    display: block;
+
+}
+
+.menu-vertical2 li:hover{
+    background-color: #90aeb2;
+
+}
+.menu-vertical2 li a{
+    display: block;
+    color: #fff;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+
+}
+
+.course{
+    --color-title: #fff;
+    color: var(--color-title);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    align-items: center;
+    height: 300px;
+    padding-left: 200px;
+    padding-right: 80px;
+    text-align: center;
+}
+
+.course2{
+    --color-title: #fff;
+    color: var(--color-title);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    align-items: center;
+    height: 300px;
+    padding-left: 200px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    margin-bottom: 50px ;
+    text-align: center;
+}
+
+.course__about{
+    z-index: 100;
+    align-self: center;
+    width: 97%;
+    margin: 0 auto;
+    padding: 30px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    background: #dd8e75;
+    grid-column: 1/4;
+    grid-row: 2/-2;
+}
+
+.course__picture{
+
+    margin: 0;
+    grid-column: 3/-1;
+    grid-row: 1/-1;
+}
+
+.course__img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.title{
+    font-family: 'Cabin Sketch', cursive;
+    text-align: center;
+
+}
+
+.about__paragraph{
+    text-align: center;
+}
+
+.img__mision{
+    width: 500px;
+    height: 400px;
+}
+
+.course__about a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #B6594C;
+    border: 2px solid #B6594C;
+    border-radius: 7px;
+    transition: all 400ms ease;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.course__about a:hover{
+    background: #B6594C;
+    color: #fff;
+}
+
+
+
+.wave-foo{
+    padding-bottom: -40px;
+    margin-bottom: -40px;
+}
+
+
+footer{
+    padding-top: 5px;
+    background: #86594c;
+    padding: 10px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+    padding-top: 30px;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo h4{
+    color: #ccc;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}

@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: rgba(55, 81, 77, .7);
+    height: 150vh;
+}
+
+  
+
+/* BARRA DE NAVEGACION */
+.nav_prin{
+    padding-bottom: 125px;
+}
+nav{
+    max-width: 900px;
+    margin: auto;
+    background-color: #86594c; 
+    font-size: 28px;
+    margin-top: 50px;
+    
+   
+}
+
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Amatic SC', cursive;
+
+}
+
+
+.menu-horizontal > li > a{
+    display: block;
+    padding: 30px 25px;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.menu-horizontal > li:hover{
+    background-color: #dd8e75;
+}
+
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 202px;
+    background-color: rgba(144, 174, 178, .3);
+    font-family: 'Amatic SC', cursive;
+}
+
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+
+}
+
+.menu-vertical li:hover{
+    background-color: #90aeb2;
+
+}
+.menu-vertical li a{
+    display: block;
+    color: #fff;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+
+}
+
+
+
+
+/* MENU VERTICAL2 */
+
+
+
+.menu-vertical2{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 171px;
+    background-color: rgba(144, 174, 178, .3);
+    font-family: 'Amatic SC', cursive;
+}
+
+.menu-horizontal li:hover .menu-vertical2{
+    display: block;
+
+}
+
+.menu-vertical2 li:hover{
+    background-color: #90aeb2;
+
+}
+.menu-vertical2 li a{
+    display: block;
+    color: #fff;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+
+}
+
+
+.arriba{
+    margin: 30px;
+}
+
+.img-nosotros{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: left;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.text-nosotros{
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 15px;
+    text-align: justify;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.titulo-pregunta{
+    font-family: 'Sacramento', cursive;
+    font-size: 80px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.mood-natural{
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(55, 81, 77);
+    padding-bottom: 30px;
+}
+
+.nosotros-info{
+    padding-left: 60px;
+    padding-right: 60px;
+   border: solid #90aeb2;
+   border-radius: 15px;
+   padding-top: 30px;
+}
+
+.wave-foo{
+    padding-bottom: -40px;
+    margin-bottom: -40px;
+}
+
+
+footer{
+    padding-top: 5px;
+    background: #86594c;
+    padding: 10px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+    padding-top: 30px;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo h4{
+    color: #ccc;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
+ 
